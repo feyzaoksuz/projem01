@@ -26,7 +26,6 @@ package day11_Frame_WindowHandle;
         assertTrue(sayfaBaslik.contains("Editor"));
 
 
-
         //Textbox iFrame içerisinde yer aldığı için önce iFrame'e geçiş yapmalıyız:
         WebElement iFrame = driver.findElement(By.xpath("//iframe[@id='mce_0_ifr']"));
        driver.switchTo().frame(iFrame);
